@@ -1,8 +1,14 @@
 package com.portfolio.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity // 클래스를 엔티티 클래스로 사용할 때 사용
+@Data @Builder // 빌더 패턴을 사용하기 위함
+@NoArgsConstructor @AllArgsConstructor
 public class Member {
 
     @Id @GeneratedValue // 테이블과 달리 엔티티 클래스에는 기본키가 있어야함
