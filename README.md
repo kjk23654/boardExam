@@ -9,3 +9,8 @@
 
 ## 두번째
 * 엔티티 생성
+* 회원가입 서비스 및 커맨드 객체 생성
+* Repository 생성
+* message.propeties 설정
+* Validator
+* 회원가입 템플릿 설정
