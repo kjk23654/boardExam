@@ -47,7 +47,7 @@ public class MvcConfig implements WebMvcConfigurer {
     @Bean
     public MessageSource messageSource() {
         ResourceBundleMessageSource ms = new ResourceBundleMessageSource();
-        ms.setDefaultEncoding("UFT-8");
+        ms.setDefaultEncoding("UTF-8");
         ms.setBasenames("messages.commons", "messages.errors", "messages.validations");
         return ms;
     }
